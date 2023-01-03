@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+p {
+    font-size: 40px;
+    color: lightblue;
+}
+.product p {
+    font-size: 20px;
+    color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(lightblue,white);
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+}
+
+nav a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+footer{
+   border-top:solid black 3px;
+   border-bottom:solid black 3px;
+   background-image:linear-gradient(to right,#9303A7,#DE0052,#4C10AE); 
+   padding :10px;
+   margin:10px
+}
+.ad {
+    float: right;
+    width: 350px ;
+    margin-top: 90px ;
+    padding: 30px;
+    border:  2px dotted fuchsia;
+}
+.catalog a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.product {
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double orange;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: bisque;
+    position: relative;
+}
+.product img{
+    width: 200px;
+    }
+div{
+    text-align: center;
+}
